@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
   // NB: Keep this for backwards compatibility. Will rename to 'swift-issue-reporting' in 2.0.
-  name: "xctest-dynamic-overlay",
+  name: "swift-issue-reporting",
   platforms: [
     .iOS(.v13),
     .macOS(.v10_15),
