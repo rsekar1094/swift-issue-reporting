@@ -264,7 +264,7 @@ public struct UnimplementedFailure: Error {
   }
 }
 
-package func _fail(
+public func _fail(
   _ description: String,
   _ parameters: Any?,
   fileID: StaticString,
